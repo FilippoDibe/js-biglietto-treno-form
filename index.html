@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Crea il tuo biglietto</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form id="form">
+                <div class="form-info">
+                    <input type="text" id="nome" placeholder="inserisci il tuo nome">
+                    <input type="number" id="numeroKm" placeholder=" quanti km vuoi fare">
+                    <input type="number" id="numeroEta" placeholder="inserisci la tua età">
+                </div>
+                <!-- debug: togliere questo bottone e posizionarlo bene  -->
+                <div class="bottoni">
+                    <button type="submit">send</button>
+                    <button type="button" id="cancel">Cancel</button>
+                </div>
+                
+            </form>
+            <h1 id="title">Ecco il tuo bigletto</h1>
+            <div class="biglietto-contain">
+                <div class="titoli">
+                    <h6>Offerta</h6>
+                    <h6>Carrozza</h6>
+                    <h6>Codice</h6>
+                    <h6>Costo</h6>
+                </div>
+                <div class="dati">
+                    <p id="offerta"></p>
+                    <p>7</p>
+                    <p>9912</p>
+                    <p id="costo"></p>
+                </div>
+                        
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/script.js"> </script>
+</body>
+</html> 
